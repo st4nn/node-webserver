@@ -1,0 +1,38 @@
+{
+  "name": "node-webserver",
+  "version": "1.0.0",
+  "description": "Simple node web server",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express-ip": "^1.0.4",
+    "express-useragent": "^1.0.13",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "PORT=4000 NODE_ENV=test nodemon index.js",
+    "start-dev": "PORT=4000 NODE_ENV=dev nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/st4nn/node-webserver.git"
+  },
+  "keywords": [
+    "webserver",
+    "Web",
+    "node"
+  ],
+  "author": "Jhonathan Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st4nn/node-webserver/issues"
+  },
+  "homepage": "https://github.com/st4nn/node-webserver#readme"
+}
